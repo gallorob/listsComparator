@@ -1,2 +1,4 @@
 # listsComparator
-Find common items in different length lists
+Find common items (strings) in different length lists
+
+Note: items are expected to be perfectly identical.
