@@ -40,11 +40,11 @@ int main(int argc, char *argv[]) {
 
     cout << "[ITEMS FOUND IN COMMON]" << endl;
 
-    // comparison cycle
+    // comparison cycle, using smallest vector
     for(int i=0; i<lists[min_vect].size(); i++) {
         bool found = true;
         for(int j=0; j<lists.size(); j++) {
-            // search game in every lists
+            // search item in every lists
             if(find(lists[j].begin(), lists[j].end(), lists[min_vect][i]) == lists[j].end()) {
                 // if not found, skip to the next game
                 found = false;
